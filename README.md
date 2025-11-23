@@ -15,8 +15,6 @@ The project uses **text preprocessing**, **TF-IDF vectorization**, and **Logisti
 
 ---
 
----
-
 ## Model Comparison & Selection
 
 Several models and approaches were evaluated:
@@ -72,3 +70,11 @@ streamlit run app.py
 - nltk
 - pandas
 - streamlit
+
+---
+
+## Files
+- Fake_News_Detection.ipynb is Jupyter Notebook that for training and initializing model
+- metrics.json is metrics file
+- model.pkl is ready trained model
+- app.py is file for running and testing model via streamlit
